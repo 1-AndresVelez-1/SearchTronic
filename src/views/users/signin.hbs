@@ -1,0 +1,57 @@
+<main class="main-content mt-0">
+  <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('/assets/img/matrix.jpg'); background-position: top;">
+    <span class="mask bg-gradient-dark opacity-6"></span>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-1 text-center mx-auto">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mt-lg-n10 mt-md-n11 mt-n10 justify-content-center">
+      <div class="col-xl-6 col-lg-8 col-md-10 mx-auto">
+        <div class="card z-index-19" style="height: 200px;">
+          <div class="card-header text-center pt-3">
+            <h5></h5>
+          </div>
+          <div class="card-body d-flex flex-column align-items-center">
+            <form action="/users/signin" method="POST">
+              <div class="form-group w-75">
+                <input type="email" class="form-control" name="email" placeholder="Email" autofocus>
+              </div>
+              <div class="form-group w-75">
+                <input type="password" class="form-control" name="password" placeholder="Password">
+              </div>
+              <div class="form-group w-75">
+                <button class="btn btn-primary btn-block btn-lg mt-0 mb-2">
+                  Ingresar
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="card-footer text-center pt-0 px-lg-2 px-1">
+            <p class="mb-4 text-sm mx-auto">
+              No estás registrado?
+              <a href="/users/signup" class="text-primary text-gradient font-weight-bold">Registrar</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<style>
+  .form-group input {
+    display: block;
+    margin-bottom: 10px;
+  }
+</style>
+
+
+
+
+
+
+
